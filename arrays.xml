@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- فئات الأسعار المتاحة -->
+    <string-array name="categories">
+        <item>اختر الفئة</item>
+        <item>فئة 100 ر.ي</item>
+        <item>فئة 200 ر.ي</item>
+        <item>فئة 300 ر.ي</item>
+        <item>فئة 500 ر.ي</item>
+    </string-array>
+
+    <!-- قيم الفئات -->
+    <integer-array name="category_values">
+        <item>0</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+    </integer-array>
+
+    <!-- حالات العمليات -->
+    <string-array name="transaction_statuses">
+        <item>الكل</item>
+        <item>نجح</item>
+        <item>فشل</item>
+        <item>قيد الانتظار</item>
+    </string-array>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">كروت كونكت الأوتوماتيكية</string>
+    
+    <!-- التنقل الرئيسي -->
+    <string name="dashboard">لوحة التحكم</string>
+    <string name="cards_management">إدارة الكروت</string>
+    <string name="logs">السجلات</string>
+    <string name="settings">الإعدادات</string>
+    
+    <!-- لوحة التحكم -->
+    <string name="automation_status">حالة الأتمتة</string>
+    <string name="enabled">مفعلة</string>
+    <string name="disabled">معطلة</string>
+    <string name="daily_sales">المبيعات اليومية</string>
+    <string name="monthly_sales">المبيعات الشهرية</string>
+    <string name="total_transactions">إجمالي العمليات</string>
+    <string name="successful_transactions">العمليات الناجحة</string>
+    <string name="failed_transactions">العمليات الفاشلة</string>
+    <string name="cards_remaining">الكروت المتبقية</string>
+    <string name="enable_automation">تفعيل الأتمتة</string>
+    <string name="disable_automation">تعطيل الأتمتة</string>
+    
+    <!-- إدارة الكروت -->
+    <string name="add_cards">إضافة كروت</string>
+    <string name="import_cards">استيراد كروت</string>
+    <string name="paste_cards">لصق الكروت</string>
+    <string name="upload_file">رفع ملف</string>
+    <string name="select_category">اختر الفئة</string>
+    <string name="category_100">فئة 100 ر.ي</string>
+    <string name="category_200">فئة 200 ر.ي</string>
+    <string name="category_300">فئة 300 ر.ي</string>
+    <string name="category_500">فئة 500 ر.ي</string>
+    <string name="category_1000">فئة 1000 ر.ي</string>
+    <string name="available_cards">الكروت المتاحة</string>
+    <string name="used_cards">الكروت المستخدمة</string>
+    <string name="card_code">كود الكرت</string>
+    <string name="card_status">حالة الكرت</string>
+    <string name="available">متاح</string>
+    <string name="used">مستخدم</string>
+    <string name="delete">حذف</string>
+    <string name="confirm_delete">هل تريد حذف هذا الكرت؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    
+    <!-- السجلات -->
+    <string name="transaction_time">وقت العملية</string>
+    <string name="transaction_amount">المبلغ</string>
+    <string name="customer_number">رقم العميل</string>
+    <string name="card_sent">الكرت المرسل</string>
+    <string name="transaction_status">حالة العملية</string>
+    <string name="success">نجح</string>
+    <string name="failed">فشل</string>
+    <string name="pending">قيد الانتظار</string>
+    <string name="no_logs">لا توجد سجلات</string>
+    <string name="filter_by_date">تصفية حسب التاريخ</string>
+    <string name="filter_by_status">تصفية حسب الحالة</string>
+    <string name="export_logs">تصدير السجلات</string>
+    
+    <!-- الإعدادات -->
+    <string name="sender_name">اسم المرسل</string>
+    <string name="sender_name_hint">مثال: jaib</string>
+    <string name="response_message">رسالة الرد</string>
+    <string name="response_message_hint">رسالة الرد التلقائية</string>
+    <string name="low_stock_threshold">حد التنبيه المنخفض</string>
+    <string name="low_stock_threshold_hint">عدد الكروت قبل التنبيه</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="enable_notifications">تفعيل الإشعارات</string>
+    <string name="notification_sound">صوت الإشعار</string>
+    <string name="notification_vibration">اهتزاز الإشعار</string>
+    <string name="about">حول التطبيق</string>
+    <string name="version">الإصدار</string>
+    <string name="developer">المطور</string>
+    <string name="save_settings">حفظ الإعدادات</string>
+    
+    <!-- الرسائل والتنبيهات -->
+    <string name="card_sent_successfully">تم إرسال الكرت بنجاح</string>
+    <string name="card_sent_failed">فشل إرسال الكرت</string>
+    <string name="low_stock_warning">تحذير: عدد الكروت في فئة %s أقل من %d</string>
+    <string name="no_cards_available">لا توجد كروت متاحة في هذه الفئة</string>
+    <string name="cards_added_successfully">تمت إضافة الكروت بنجاح</string>
+    <string name="invalid_card_format">صيغة الكرت غير صحيحة</string>
+    <string name="settings_saved">تم حفظ الإعدادات</string>
+    <string name="error_occurred">حدث خطأ</string>
+    <string name="try_again">حاول مرة أخرى</string>
+    <string name="loading">جاري التحميل...</string>
+    <string name="empty">فارغ</string>
+    
+    <!-- الأذونات -->
+    <string name="permission_sms_required">يتطلب التطبيق إذن قراءة وإرسال الرسائل النصية</string>
+    <string name="permission_contacts_required">يتطلب التطبيق إذن الوصول إلى جهات الاتصال</string>
+    <string name="permission_notification_required">يتطلب التطبيق إذن الإشعارات</string>
+    <string name="grant_permissions">منح الأذونات</string>
+    
+</resources>

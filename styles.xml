@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- الموضوع الرئيسي -->
+    <style name="Theme.KrootConnect" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorOnPrimary">@color/text_white</item>
+        <item name="colorOnSecondary">@color/text_white</item>
+        <item name="colorOnError">@color/text_white</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/background</item>
+    </style>
+
+    <!-- أنماط النصوص -->
+    <style name="TextStyle.Title" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyle.Subtitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextStyle.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextStyle.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- أنماط الأزرار -->
+    <style name="ButtonStyle.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/text_white</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="ButtonStyle.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/secondary</item>
+        <item name="strokeColor">@color/secondary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="ButtonStyle.Accent" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/text_white</item>
+        <item name="backgroundTint">@color/accent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- أنماط البطاقات -->
+    <style name="CardStyle.Primary" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/background_card</item>
+    </style>
+
+    <style name="CardStyle.Elevated" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="cardBackgroundColor">@color/background_card</item>
+    </style>
+
+    <!-- أنماط حقول الإدخال -->
+    <style name="EditTextStyle.Primary" parent="Widget.MaterialComponents.TextInputEditText">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- أنماط القوائم -->
+    <style name="MenuStyle.Primary" parent="Widget.MaterialComponents.PopupMenu">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- أنماط الشريط العلوي -->
+    <style name="AppBarStyle.Primary" parent="Widget.MaterialComponents.AppBarPrimary">
+        <item name="android:background">@color/primary</item>
+        <item name="titleTextColor">@color/text_white</item>
+    </style>
+
+    <!-- أنماط الحوارات -->
+    <style name="DialogStyle.Primary" parent="ThemeOverlay.MaterialComponents.Dialog">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+    </style>
+
+</resources>
